@@ -1,15 +1,15 @@
+# config/vault_settings.yaml
+
 vault:
   id: "LIDO_5X_LEVERAGE_CURATED_MAINNET"
   chain: "mainnet"
-  rpc_url: "https://mainnet.infura.io/v3/..."
-  starknet_or_evm: "EVK"
+  rpc_url: "https://mainnet.infura.io/v3/YOUR_INFURA_KEY"
   min_deposit_eth: 1000.0
   max_tvl_eth: 200000.0
-
-  # Lido‑related
   node_operator: "NO_01"
   staking_module: "0x123...LidoModule"
-
-  # Risk‑mode
   max_drawdown_pct: 15.0
   target_apr_pct: 20.0
+
+secrets:
+  private_key: "0x..."  # Should be loaded from env / KMS in prod
