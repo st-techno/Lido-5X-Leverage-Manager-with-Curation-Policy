@@ -1,0 +1,17 @@
+curation:
+  max_ltv: 0.65
+  min_health_factor: 1.30
+  max_loop_factor: 4.0
+  max_exposure_per_protocol: 0.18
+  max_restaking_avs_exposure: 0.15
+  risk_score_cap: 0.60
+  rebalance_trigger_offset: 0.025
+
+  unpooled_eth_ratio: 0.20
+  emergency_redline_hf: 1.10
+
+  max_rebalance_per_day: 1
+  curation_review_interval_days: 60
+
+  staking_apr: 0.04
+  borrowing_apr: 0.025
