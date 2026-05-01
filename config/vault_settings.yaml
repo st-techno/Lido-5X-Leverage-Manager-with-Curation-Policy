@@ -1,0 +1,15 @@
+vault:
+  id: "LIDO_5X_LEVERAGE_CURATED_MAINNET"
+  chain: "mainnet"
+  rpc_url: "https://mainnet.infura.io/v3/..."
+  starknet_or_evm: "EVK"
+  min_deposit_eth: 1000.0
+  max_tvl_eth: 200000.0
+
+  # Lido‑related
+  node_operator: "NO_01"
+  staking_module: "0x123...LidoModule"
+
+  # Risk‑mode
+  max_drawdown_pct: 15.0
+  target_apr_pct: 20.0
