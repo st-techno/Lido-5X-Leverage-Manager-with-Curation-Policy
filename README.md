@@ -1,6 +1,6 @@
-## Lido‑5x‑Leverage‑Manager production code:
+## Lido‑5x‑Leverage‑Manager with Curation Policy 
 
-## Features
+## Production Code - Features:
 
 The vault is a Lido‑style 5x‑leveraged ETH‑stETH‑Aave‑loop that turns fresh ETH deposits into a highly‑leveraged stETH position, borrowing against ETH‑stETH collateral to boost yield, while enforcing strict risk‑factor caps and buffer‑style reserve‑ratio checks.
 
